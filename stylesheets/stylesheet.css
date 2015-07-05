@@ -62,7 +62,7 @@ a {
 @media screen and (min-width: 64em) {
   .page-header {
     text-align: left;
-    padding: 5rem 6rem; } }
+    padding: 5rem 6rem 2rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -252,12 +252,15 @@ a {
 #preview {
   float: right;
   margin-left: 10px;
-  margin-top: -250px;
+  margin-top: -320px;
 }
 
 @media screen and (max-width: 42em) {
-#preview {
-  display: none;}
+  #preview {display: none;}
+}
+
+@media screen and (max-width: 64em) and (min-width: 42em){
+  #preview {margin-right: -100px;}
 }
 
 .video-demo {
@@ -271,4 +274,15 @@ a {
 
 .profile {
   border-radius: 50%;
+}
+
+.try {
+    width: 290px;  
+    padding: 1em 0;
+}
+
+@media screen and (max-width: 42em){
+  .try {
+    display: none;
+  }
 }
