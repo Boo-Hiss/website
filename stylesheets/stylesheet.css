@@ -258,3 +258,13 @@ a {
 @media screen and (max-width: 42em) {
 #preview {
   display: none;}
+}
+
+.video-demo {
+    background-color: #EAF5F5;
+    padding: 2em 1em;
+    border-radius: 1em;
+    text-align: center;
+    border: 5px solid #B3E1E8;
+    margin: 2em;
+}
