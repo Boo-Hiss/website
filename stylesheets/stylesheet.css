@@ -273,7 +273,16 @@ a {
 }
 
 .profile {
+  float: right;
+  width: 150px;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.profile img {
   border-radius: 50%;
+  width: 80px;
+  height: 80px;
 }
 
 .try {
