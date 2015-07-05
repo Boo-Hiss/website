@@ -268,3 +268,7 @@ a {
     border: 5px solid #B3E1E8;
     margin: 2em;
 }
+
+.profile {
+  border-radius: 50%;
+}
